@@ -1,0 +1,215 @@
+/* The webpage overall styling */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: grey;
+}
+
+/*  This is for styling the main container that holds everything */
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #0e1528;
+    /* background: white; */
+}
+#particle-js{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+/* This styles the navbar and its contents */
+#navbar {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+/* This styles the logo in the navbar */
+#navbar #logo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 3%;
+    top: -5px;
+}
+
+/* This styles the logo image to be used in the navbar */
+#navbar #logo img {
+    height: 60px;
+    width: 60px;
+}
+
+/* This styles the unlisted links in the navbar */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+
+/* This changes the appearance of the listed links in the navbar */
+#navbar ul li a {
+    /* height: 60px;
+    width: 80px; */
+    margin: 1rem 2rem;
+    display: flex;
+    text-decoration: none;
+
+    /* place-items: center; */
+    color: yellow;
+}
+
+/* This sets the hover action of the navbar links */
+#navbar ul:hover .active {
+    background: none;
+    border: none;
+}
+
+/* This styles the descriptions of the 3D object */
+#content {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 12%;
+    top: calc(50% - 250px);
+}
+
+/* This styles the heading in the 3D description */
+#content h2 {
+    font-size: 8.75rem;
+    color: grey;
+    background: linear-gradient(to right
+    ,rgb(67,124,205),rgb(69,214,202));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* This styles the paragraph in the 3D description*/
+#content p {
+    font-size: 20px;
+    color: orange;
+}
+
+/* This styles the button in the 3D description*/
+#content button {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 5vh;
+    margin-left: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: dodgerblue;
+    color: white;
+}
+
+/* This adds some hover effects over the button */
+#content button:hover {
+    background: navy;
+}
+
+/* This styles the social media icons*/
+#icons {
+    height: 500px;
+    width: 140px;
+    background: none;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 250px);
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(2px 2px 2px grey);
+}
+
+/* This styles the social media icons logos*/
+#icons #iconsLogo {
+    height: 300px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* This styles the social media icons logos images*/
+#icons #iconsLogo i {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin: 10px;
+    color: yellow;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+.midsec .midcontent{
+    background-color: #2eb898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.midp{
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+#thirdsec{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+.sketchfab-embed-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    column-gap: 2rem;
+}
+.thirdp{
+    display: flex;
+    
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+#lastsec{
+    padding: 1rem;
+    display: flex;
+    background: linear-gradient(to right
+    ,rgb(67,124,205),rgb(69,214,202));
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+}
+q{
+    font-size: 4rem;
+    /* justify-content: center; */
+    text-align: center;
+    color: #c6e800;
+}
+.sketchfab-embed-wrapper1{
+height: 9rem;
+}
