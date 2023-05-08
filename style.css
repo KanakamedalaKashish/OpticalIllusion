@@ -13,15 +13,16 @@
     width: 100%;
     position: relative;
     background: #0e1528;
-    /* background: white; */
+    
 }
+
 #particle-js{
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 10;
     
 }
+
 
 /* This styles the navbar and its contents */
 #navbar {
@@ -64,7 +65,7 @@
     margin: 1rem 2rem;
     display: flex;
     text-decoration: none;
-
+    
     /* place-items: center; */
     color: yellow;
 }
@@ -75,16 +76,23 @@
     border: none;
 }
 
-/* This styles the descriptions of the 3D object */
+/* This styles the descriptions of the object */
 #content {
-    height: 500px;
-    width: 700px;
+    height: 31.25rem;
+    width: 70rem;
     position: absolute;
     left: 12%;
     top: calc(50% - 250px);
+    /* border: 2px solid white; */
+    display: flex;
 }
 
-/* This styles the heading in the 3D description */
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* This styles the heading in the description */
 #content h2 {
     font-size: 8.75rem;
     color: grey;
@@ -95,16 +103,16 @@
     -webkit-text-fill-color: transparent;
 }
 
-/* This styles the paragraph in the 3D description*/
+/* This styles the paragraph in the description*/
 #content p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: orange;
 }
 
-/* This styles the button in the 3D description*/
-#content button {
-    width: 35%;
-    height: 40px;
+/* This styles the button in the description*/
+#content .matter button {
+    width: 7rem;
+    height: 2.5rem;
     font-size: 16px;
     font-family: sans-serif;
     margin-top: 5vh;
